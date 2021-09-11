@@ -1,4 +1,4 @@
-# diff-viewer
+# string-diff-viewer
 
 Compare two strings with good-lookin' diffs in your terminal
 
@@ -7,13 +7,13 @@ Compare two strings with good-lookin' diffs in your terminal
 # Installation
 
 ```bash
-npm i diff-viewer
+npm i string-diff-viewer
 ```
 
 # Usage
 
 ```js
-const { diff } = require( 'diff-viewer' )
+const { diff } = require( 'string-diff-viewer' )
 
 diff( oldStr, newStr ).then( console.log )
 ```
