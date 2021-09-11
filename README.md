@@ -13,9 +13,13 @@ npm i string-diff-viewer
 # Usage
 
 ```js
-const { diff } = require( 'string-diff-viewer' )
+const { diff, format } = require( 'string-diff-viewer' )
 
-diff( oldStr, newStr ).then( console.log )
+;( async () => {
+  const diffs = await diff( oldStr, newStr )
+  console.log( format( diffs ) )
+} )()
+
 ```
 
 # Related
