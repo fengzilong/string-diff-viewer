@@ -1,6 +1,6 @@
 # string-diff-viewer
 
-Compare two strings with good-lookin' diffs (from [git-split-diffs](https://github.com/banga/git-split-diffs)) in your terminal
+Compare two string and generate human-friendly output to stdout (based on [git-split-diffs](https://github.com/banga/git-split-diffs))
 
 <img src="screenshot.jpg" width="650">
 
@@ -17,9 +17,8 @@ const { diff, format } = require( 'string-diff-viewer' )
 
 ;( async () => {
   const diffs = await diff( oldStr, newStr )
-  console.log( format( diffs ) )
+  console.log( await format( diffs ) )
 } )()
-
 ```
 
 # Related
