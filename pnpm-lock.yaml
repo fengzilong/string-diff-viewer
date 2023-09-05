@@ -12,8 +12,8 @@ dependencies:
     specifier: ^10.0.0
     version: r2.cnpmjs.org/fs-extra@10.0.0
   git-split-diffs-api:
-    specifier: ^0.2.1
-    version: 0.2.1
+    specifier: ^0.2.4
+    version: 0.2.4
   tempy:
     specifier: ^1.0.1
     version: r2.cnpmjs.org/tempy@1.0.1
@@ -140,8 +140,8 @@ packages:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
     dev: true
 
-  /git-split-diffs-api@0.2.1:
-    resolution: {integrity: sha512-3ug0c+dSA8gk4lI8c52aRIoyni6yjLsWfvMHwwszKdCTwjmesqerw+Kioj11ITQJ+ok6brfTk8u3z4GRFcI8Kg==}
+  /git-split-diffs-api@0.2.4:
+    resolution: {integrity: sha512-tj6uIe13gZ7b8OY7S1Mwp6iPcNlBCp/LPCLbBw4I6pW2kdMA3DP8YGyJ7ZLjRTIRo1ppHHFdwzsXdwzkybGtlg==}
     engines: {node: '>=12'}
     dependencies:
       ansi-regex: r2.cnpmjs.org/ansi-regex@5.0.1
