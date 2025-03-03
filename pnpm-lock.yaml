@@ -15,11 +15,14 @@ importers:
         specifier: ^10.0.0
         version: 10.1.0
       git-split-diffs-api:
-        specifier: ^2
-        version: 2.0.0
+        specifier: ^2.1.0
+        version: 2.1.0
       tempy:
         specifier: ^1.0.1
         version: 1.0.1
+      uid:
+        specifier: ^2.0.2
+        version: 2.0.2
     devDependencies:
       eslint:
         specifier: ^7.32.0
@@ -56,6 +59,10 @@ packages:
   '@humanwhocodes/object-schema@1.2.1':
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     deprecated: Use @eslint/object-schema instead
+
+  '@lukeed/csprng@1.1.0':
+    resolution: {integrity: sha512-Z7C/xXCiGWsg0KuKsHTKJxbWhpI3Vs5GwLfOean7MGyVFGqdRgBbAjOCh6u4bbjPc/8MJ2pZmK/0DLdCbivLDA==}
+    engines: {node: '>=8'}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -411,8 +418,8 @@ packages:
     resolution: {integrity: sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==}
     engines: {node: '>=10'}
 
-  git-split-diffs-api@2.0.0:
-    resolution: {integrity: sha512-iaZeNDdnJqD6djIqUlgEfI8P+hv4rU9P+R7mANM1pti95Y/1OwskhJ8TmEDbtVsPo2G+jxpBJsghymW5p2PlOA==}
+  git-split-diffs-api@2.1.0:
+    resolution: {integrity: sha512-+1C3Gp3Te4req5+cr1vJWw1RjlfD/CD0CSOvYYAsS0DGwoBIW0ppgcfT45XNYx65XY7E1f6vXdGdtU0zlTB0Sg==}
     engines: {node: '>=18'}
 
   glob-parent@5.1.2:
@@ -820,6 +827,10 @@ packages:
     resolution: {integrity: sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==}
     engines: {node: '>=10'}
 
+  uid@2.0.2:
+    resolution: {integrity: sha512-u3xV3X7uzvi5b1MncmZo3i2Aw222Zk1keqLA1YkHldREkAhAqi65wuPfe7lHx8H/Wzy+8CE7S7uS3jekIM5s8g==}
+    engines: {node: '>=8'}
+
   unique-string@2.0.0:
     resolution: {integrity: sha512-uNaeirEPvpZWSgzwsPGtU2zVSTrn/8L5q/IexZmH0eH6SA73CmAA5U4GwORTxQAZs95TAXLNqeLoPPNO5gZfWg==}
     engines: {node: '>=8'}
@@ -911,6 +922,8 @@ snapshots:
       - supports-color
 
   '@humanwhocodes/object-schema@1.2.1': {}
+
+  '@lukeed/csprng@1.1.0': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -1304,7 +1317,7 @@ snapshots:
 
   get-stream@6.0.1: {}
 
-  git-split-diffs-api@2.0.0:
+  git-split-diffs-api@2.1.0:
     dependencies:
       ansi-regex: 6.1.0
       chalk: 5.4.1
@@ -1701,6 +1714,10 @@ snapshots:
   type-fest@0.20.2: {}
 
   type-fest@0.21.3: {}
+
+  uid@2.0.2:
+    dependencies:
+      '@lukeed/csprng': 1.1.0
 
   unique-string@2.0.0:
     dependencies:

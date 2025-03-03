@@ -33,8 +33,9 @@
   "dependencies": {
     "execa": "^5.1.1",
     "fs-extra": "^10.0.0",
-    "git-split-diffs-api": "^2",
-    "tempy": "^1.0.1"
+    "git-split-diffs-api": "^2.1.0",
+    "tempy": "^1.0.1",
+    "uid": "^2.0.2"
   },
   "packageManager": "pnpm@9.15.1"
 }
