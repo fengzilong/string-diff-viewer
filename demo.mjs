@@ -11,8 +11,7 @@ console.log(
       theme: 'dark',
       syntaxTheme: 'github-dark',
       language: 'js',
-      displayFilename: 'foo/bar.mjs',
-      transparentBg: true,
+      displayFilename: 'short-path.js',
     }
   ),
 )

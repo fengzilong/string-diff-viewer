@@ -17,11 +17,6 @@
   "keywords": [],
   "author": "fengzilong",
   "license": "MIT",
-  "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-mo": "^0.5.3",
-    "eslint-formatter-mo": "^1.0.1"
-  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/fengzilong/diff-view.git"
@@ -35,7 +30,14 @@
     "fs-extra": "^10.0.0",
     "git-split-diffs-api": "^2.1.0",
     "tempy": "^1.0.1",
-    "uid": "^2.0.2"
+    "uid": "^2.0.2",
+    "strip-ansi": "^7.1.0",
+    "slice-ansi": "^7.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-mo": "^0.5.3",
+    "eslint-formatter-mo": "^1.0.1"
   },
   "packageManager": "pnpm@9.15.1"
 }
