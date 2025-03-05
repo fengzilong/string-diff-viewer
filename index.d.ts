@@ -5,6 +5,7 @@ interface DiffOptions {
   displayFilename?: string;
   sideBySide?: boolean;
   columns?: number;
+  wrapLines?: boolean;
 }
 
 export function diff(

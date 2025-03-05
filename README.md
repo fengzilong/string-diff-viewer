@@ -28,6 +28,8 @@ const diffString = await diff( oldStr, newStr, {
   displayFilename: 'foo/bar.mjs',
   // total columns(default: <full term size>)
   columns: 100,
+  // wrap lines or truncate them(default: true)
+  wrapLines: true,
 } )
 
 console.log(diffString)

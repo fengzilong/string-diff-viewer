@@ -12,6 +12,7 @@ console.log(
       syntaxTheme: 'github-dark',
       language: 'js',
       displayFilename: 'short-path.js',
+      wrapLines: false,
     }
   ),
 )
